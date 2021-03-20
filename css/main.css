@@ -1,0 +1,78 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: linear-gradient(#dd614a, #f48668);
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 50px;
+}
+
+.search__text {
+  font-size: 2rem;
+  border: none;
+  width: 0px;
+  transition: width 0.3s linear;
+}
+
+.search__text--show {
+  width: 300px;
+  padding-left: 1.25rem;
+}
+
+.search__text::placeholder {
+  color: #dd614a;
+  opacity: 0.7;
+}
+
+.search__button {
+  width: 50px;
+  border: none;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+
+.search__button--show {
+  background-color: #73a580;
+}
+
+.search__icon {
+  transform: scale(1.5);
+  color: #dd614a;
+}
+/*# sourceMappingURL=main.css.map */
